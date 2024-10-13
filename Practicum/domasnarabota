@@ -1,0 +1,155 @@
+#include <iostream>
+using namespace std;
+zad1
+int main() {
+	int a = 0;
+	cin >> a;
+	cout << ((a % 2) == 0);
+	}
+zad2
+int main() {
+	int a = 0;
+	int b = 0;
+	cin >> a;
+	cin >> b;
+	cout << (a / b) << endl;
+	cout << (a % b) << endl;
+
+}
+zad3
+int main() {
+	int f ;
+	cin >> f;
+	double c=(9.0 / 5)*f + 32;
+	cout << c;
+}
+zad4
+int main() {
+	double a;
+	cin >> a;
+	double b;
+	cin >> b;
+	cout << (2*a + 2*b) <<endl;
+	cout << ( a * b) <<endl;
+
+}
+zad5 
+int main() {
+	long long a;
+	cin >> a;
+	long long d = (a / (24 * 3600));
+		     a %=(24*3600);
+			 long long h = (a * 3600);
+		a %= 3600;
+		long long m = (a / 60);
+		a %= 60;
+
+	cout <<( d , h , m) << endl;
+	
+} ?? have no idea 
+zad6
+int main() {
+	int a;
+	cin >> a;
+	cout << (a / 10) <<endl;
+
+}
+zad7
+int main() {
+	double a;
+	cin >> a;
+	cout << (a > 2.6) << endl;
+}
+zad8
+int main() {
+	int a;
+	int b;
+	int c;
+	int d;
+	cin >> a;
+	cin >> b;
+	cin >> c;
+	cin >> d;
+	cout << ((a < c && c < b) || (d < a && d < b)) << endl;
+}
+zad9
+int main() {
+	int n;
+	cin >> n;
+	cout << ((n*(n+1)) / 2) << endl;
+
+}
+zad10
+int main() {
+	int a;
+	cin >> a;
+	int b;
+	cin >> b;
+	int c;
+	cin >> c;
+	int d;
+	cin >> d;
+	cout << ((d / c)&& (c / b)&& (b / a)) << endl;
+
+}
+zad12
+int main() {
+	double a;
+	cin >> a;
+	double b;
+	cin >> b;
+		double x = (a > b) ? a : b;
+		cout << x << endl;
+
+}  
+zad 11
+int main() {
+	double a;
+	cin >> a;
+	double b;
+	cin >> b;
+	cout << (a = a + b) << endl;
+		cout << (b = a - b) << endl;
+	cout << (a = a - b) << endl;
+	
+}
+zad13
+int main() {
+	int a;
+	cin >> a;
+		int b = (a >= 10 && a <= 99) ?a : a%10 ;
+		cout << b << endl;
+	    
+}
+zad14
+int main() {
+	int a;
+	cin >> a;
+	int b;
+	cin >> b;
+	int c;
+	cin >> c;
+	int d;
+	cin >> d;
+	int e;
+	cin >> e;
+	int necetni1 = (a %2 !=0 )*a;
+	int necetni2 = (b %2 !=0)*b;
+	int necetni3= (c% 2 != 0) * c;
+	int necetni4 = (d % 2 != 0) * d;
+	int necetni5= (e % 2 != 0) * e; 
+	int suma = (necetni1 + necetni2 + necetni3 + necetni4 + necetni5);
+	cout << suma << endl;
+
+}
+zad15
+int main() {
+	double a;
+	cin >> a;
+	double b;
+	cin >> b;
+	double c;
+	cin >> c;
+	cout << (a*a +b*b == c*c )<< endl;
+	 
+}
