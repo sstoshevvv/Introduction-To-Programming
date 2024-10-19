@@ -1,6 +1,6 @@
 #include <iostream>
 int main()
-/*zad1
+zad1
 {
 	int a;
 	std ::cin >> a;
@@ -223,6 +223,6 @@ zad13
 		else if (D < 0)
 			std::cout << "0";
 }
-*/
+
 
 
